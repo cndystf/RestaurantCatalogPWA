@@ -19,7 +19,7 @@ class Navbar extends HTMLElement {
         </div>
 
         <ul class="nav-list">
-          <li class="nav-item"><a href="/">Home</a></li>
+          <li class="nav-item"><a href="#/home">Home</a></li>
           <li class="nav-item"><a href="#/favorite">Favorite</a></li>
           <li class="nav-item"><a href="https://www.instagram.com/cndystf/">About</a></li>
         </ul>

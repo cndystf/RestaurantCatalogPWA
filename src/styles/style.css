@@ -37,6 +37,7 @@ body {
   color: white;
   padding: 8px;
   z-index: 10;
+  text-decoration: none;
 }
 
 .skip-link:focus {
@@ -344,6 +345,11 @@ nav {
   border-radius: 0px 10px 0px 10px;
 }
 
+.detail-menu {
+  display: flex;
+  flex-direction: row;
+}
+
 .detail-menu h4 {
   font-weight: bold;
   font-size: 22px;
@@ -354,12 +360,8 @@ nav {
 
 .detail-food {
   width: 50%;
-  float: left;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
+  padding: 10px;
   text-align: center;
-  align-content: center;
 }
 
 .food-style {
@@ -376,9 +378,8 @@ nav {
 }
 
 .detail-drink {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
+  width: 50%;
+  padding: 10px;
   text-align: center;
   align-content: center;
 }
