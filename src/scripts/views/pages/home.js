@@ -10,7 +10,7 @@ const Home = {
           <div id="loading"></div>
 
           <div id="main-container">
-              <h2 tabindex="0" class="main-content__title">Explore Restaurant</h2>
+              <h2 class="main-content__title">Explore Restaurant</h2>
               
               <section id="explore-restaurant"></section>
           </div>

@@ -34,7 +34,7 @@ body {
   top: -80px;
   left: 0;
   background-color: var(--main);
-  color: white;
+  color: var(--white);
   padding: 8px;
   z-index: 10;
   text-decoration: none;
@@ -483,6 +483,7 @@ form {
 
 .form-control {
   display: block;
+  height: 55px;
   width: 100%;
   min-height: 1em;
   padding: 0.3em;
